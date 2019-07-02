@@ -1,0 +1,11 @@
+spring:
+  profiles: dev
+  main:
+    banner-mode: "off"
+
+name: test-YAML
+environment: test
+
+stock:
+  baseUrl: "https://www.alphavantage.co"
+  accessToken: "${STOCK_API_TOKEN}"

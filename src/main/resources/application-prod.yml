@@ -1,0 +1,10 @@
+spring:
+  profiles: prod
+  main:
+    banner-mode: "off"
+name: prod-YAML
+environment: production
+
+stock:
+  baseUrl: "https://www.alphavantage.co"
+  accessToken: "${STOCK_API_TOKEN}"
